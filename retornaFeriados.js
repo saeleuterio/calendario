@@ -1,4 +1,4 @@
-import feriadosNacionais from '../dados/dataFeriados.js';
+import feriadosNacionais from './dataFeriados.js';
 import filtraFeriados from './filtros.js';
 import {formataDiaSemana, formataDataFeriado} from './formataDataFeriados.js';
 
