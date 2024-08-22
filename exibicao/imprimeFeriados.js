@@ -1,5 +1,5 @@
 function imprimeFeriados(feriadosFiltro){
-    feriadosFiltro.forEach((feriado) => {
+    feriadosFiltro.forEach(feriado => {
 
         const nome = feriado.nome;
         const diaSemana = feriado.diaSemana;

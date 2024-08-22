@@ -5,7 +5,7 @@ function filtraFeriados(feriados, numeroFeriados){
     let proximosFeriados = [];
     let novaDataFeriado;
 
-    feriados.forEach((feriado) => {
+    feriados.forEach(feriado => {
 
         novaDataFeriado = new Date(feriado.data + '/' + anoAtual);
 

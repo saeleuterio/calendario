@@ -8,9 +8,9 @@ function formataDataFeriado(dataFeriado){
     const mesFeriado = dataFeriado.getMonth() + 1;
     const anoFeriado = dataFeriado.getFullYear();
 
-    const dataExibicao = diaFeriado + "/" + mesFeriado + "/" + anoFeriado;
+    const dataExibicao = diaFeriado+"/"+mesFeriado+"/"+anoFeriado;
 
     return dataExibicao;
 }
 
-export { formataDiaSemana, formataDataFeriado };
+export {formataDiaSemana, formataDataFeriado};
